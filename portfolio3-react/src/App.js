@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloDiv from './components/helloDiv';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <HelloDiv />;
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
