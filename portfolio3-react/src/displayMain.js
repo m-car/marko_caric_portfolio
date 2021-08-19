@@ -4,6 +4,7 @@ import HelloDiv from './components/helloDiv';
 import NavbarDiv from './components/navbarDiv';
 import MyworkDiv from './components/myworkDiv';
 import ContactmeForm from './components/contactmeDiv';
+import FooterDiv from './components/FooterDiv';
 
 
 export default function DisplayMain(){
@@ -31,6 +32,7 @@ export default function DisplayMain(){
         <NavbarDiv currentPage={currentPage} handlePageChange={handlePageChange} />
         {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
+        <FooterDiv />
       </div>
     )
 }
