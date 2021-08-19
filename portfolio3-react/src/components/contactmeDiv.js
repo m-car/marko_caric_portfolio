@@ -63,7 +63,7 @@ function ContactmeForm() {
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
         <input
           value={userName}
