@@ -1,4 +1,4 @@
 #  React Portfolio
 
 ## Description
-This is my portfolio built with REACTS
+This is my portfolio built with REACT
