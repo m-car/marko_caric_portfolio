@@ -5,39 +5,39 @@ import NavbarDiv from './components/navbarDiv';
 import MyworkDiv from './components/myworkDiv';
 import ContactmeDiv from './components/contactmeDiv';
 
-const myworks = [
-  {
-    id: 1,
-    name: 'Kode Keeper',
-    description:"a project description", 
-    gitlink:'https://github.com/m-car/Kode-Keeper' ,
-    deployedLink:"",
-    purchased: true,
-  },
-  {
-    id: 2,
-    name: 'CryptoLaunch',
-    description:"a project description",
-    gitlink:'https://github.com/m-car/crypto-launchpad' ,
-    deployedLink:"",
-    purchased: true,
-  },
-  {
-    id: 3,
-    name: 'Offline Budget Tracker',
-    description:"a project description",
-    gitlink:"https://github.com/m-car/offline-budget-tracker",
-    deployedLink:"",
-    purchased: false,
-  },
-];
+// const myworks = [
+//   {
+//     id: 1,
+//     name: 'Kode Keeper',
+//     description:"a project description", 
+//     gitlink:'https://github.com/m-car/Kode-Keeper' ,
+//     deployedLink:"",
+//     purchased: true,
+//   },
+//   {
+//     id: 2,
+//     name: 'CryptoLaunch',
+//     description:"a project description",
+//     gitlink:'https://github.com/m-car/crypto-launchpad' ,
+//     deployedLink:"",
+//     purchased: true,
+//   },
+//   {
+//     id: 3,
+//     name: 'Offline Budget Tracker',
+//     description:"a project description",
+//     gitlink:"https://github.com/m-car/offline-budget-tracker",
+//     deployedLink:"",
+//     purchased: false,
+//   },
+// ];
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <NavbarDiv />
         <HelloDiv />
-        <MyworkDiv myworks={myworks}/>
+        <MyworkDiv/>
         <ContactmeDiv />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
