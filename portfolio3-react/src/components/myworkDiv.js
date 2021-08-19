@@ -1,14 +1,22 @@
 import React from 'react';
 
 
-function MyworkDiv() {
+function MyworkDiv(props) {
     return(
-        <div>
-            <ul>
-                <li>put projects here </li>
-                <li>project 2 </li>
-            </ul>
-        </div>
+    
+    <ul className="list-group">
+        {props.myworks.map((item) => (
+            <li className="list-group-item" key ={item.id}>
+             <h2>{item.name}</h2> 
+             <p>{item.description}</p> 
+            <a {...item.gitlink}>Github Link</a>
+            <a {...item.deployedLink}>Deployed Link</a>
+            </li>
+            
+
+        ))}
+    </ul>
+    
     )
 }
 export default MyworkDiv;
