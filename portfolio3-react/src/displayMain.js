@@ -3,7 +3,7 @@ import './App.css';
 import HelloDiv from './components/helloDiv';
 import NavbarDiv from './components/navbarDiv';
 import MyworkDiv from './components/myworkDiv';
-import ContactmeDiv from './components/contactmeDiv';
+import ContactmeForm from './components/contactmeDiv';
 export default function DisplayMain(){
     const  [view, setView] = useState(HelloDiv);
 
@@ -16,7 +16,7 @@ export default function DisplayMain(){
         <NavbarDiv />
         <HelloDiv />
         <MyworkDiv/>
-        <ContactmeDiv />
+        <ContactmeForm />
         </div>
     )
 }
