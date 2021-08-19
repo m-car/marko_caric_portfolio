@@ -31,6 +31,7 @@ function MyworkDiv() {
     return(
     
     <ul className="list-group">
+        <h2>portfolio</h2>
         {myworks.map((item) => (
             // <li className="list-group-item" key ={item.id}>
             //  <h2>{item.name}</h2> 
@@ -39,7 +40,6 @@ function MyworkDiv() {
             // <a {...item.deployedLink}>Deployed Link</a>
             // </li>
             <div>
-            <h2>portfolio</h2>
             <Card name ={item.name} description={item.description} gitlink={item.gitlink} deployedLink={item.deployedLink} key={item.id} />
             </div>
 

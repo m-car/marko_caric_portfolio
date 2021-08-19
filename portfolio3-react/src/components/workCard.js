@@ -4,10 +4,10 @@ import React from 'react';
 export default function Card(props) {
   const cardStyle = {
     width: '18rem',
+    //temporary styling to distinguish cards
+    background: 'red'
   };
 
-  // Helper function that generates a random width for our placeholder images
- 
 
   return (
     <div>
