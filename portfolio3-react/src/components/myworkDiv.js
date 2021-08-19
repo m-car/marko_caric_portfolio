@@ -38,7 +38,10 @@ function MyworkDiv() {
             // <a {...item.gitlink}>Github Link</a>
             // <a {...item.deployedLink}>Deployed Link</a>
             // </li>
+            <div>
+            <h2>portfolio</h2>
             <Card name ={item.name} description={item.description} gitlink={item.gitlink} deployedLink={item.deployedLink} key={item.id} />
+            </div>
 
         ))}
     </ul>
