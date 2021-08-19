@@ -1,15 +1,124 @@
+
 .form {
   margin: 20px;
 }
 
 .form input {
-  display: block;
+  /* display: block; */
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
 }
 
-.nav-item {
-  color:#f83c02;
-  list-style-type: none; 
+
+/* navbar styling */
+.bg-img{
+  background-image: url("../Assets/images/ledWall.jpeg");
+
+  min-height: 380px;
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ 
+   /* Needed to position the navbar */
+   position: relative;
+}
+.container {
+  
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+a{
+  color: #c6dd60;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* footer styling */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom:100px;
+}
+
+.social_links {
+  padding: 1rem;
+  background: #383838;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.social_links .combo {
+  transform: scale(0.9);
+  transition: 0.4s ease-in;
+  margin: 0 0.5rem;
+  height: 2em;
+  width: 3em;
+  line-height: 3em;
+}
+.combo .circle {
+  color: #f9f9f9;
+  transition: 0.4s ease-in;
+  font-size: 1em;
+}
+.combo .icon {
+  color: #444343;
+  font-size: 2rem;
+  transform: translateY(1px);
+  transition: 0.2s ease-in;
+}
+.combo:hover {
+  transform: scale(1.1);
+}
+.combo:hover,
+.combo:hover .icon {
+  color: white;
+}
+.ig:hover,
+.ig:hover .circle {
+  color: #e91e63;
+}
+.fb:hover,
+.fb:hover .circle {
+  color: #2196f3;
+}
+.yt:hover,
+.yt:hover .circle {
+  color: #f44336;
+}
+.tw:hover,
+.tw:hover .circle {
+  color: #2196f3;
+}
+.gt:hover,
+.gt:hover .circle {
+  color: #1f1f1f;
 }

@@ -1,9 +1,9 @@
 import React , { useState } from 'react';
 import { validateEmail } from '../utils/helpers'
 import './style.css';
-const myEmail = 'pbmc117@gmail.com';
-const myGithub='https://github.com/m-car';
-const myLinkedIn='https://www.linkedin.com/in/markocaric/'
+// const myEmail = 'pbmc117@gmail.com';
+// const myGithub='https://github.com/m-car';
+// const myLinkedIn='https://www.linkedin.com/in/markocaric/'
 function ContactmeForm() {
  
   // Create state variables for the fields in the form
@@ -92,13 +92,3 @@ function ContactmeForm() {
   );
 }
 export default ContactmeForm;
-
-{/* <div>
-            <ul>
-                
-                <li><a href={myEmail}>Email Me</a></li>
-                <li><a href={myGithub}>My GitHub</a> </li>
-                <li><a href={myLinkedIn}>LinkedIn</a></li>
-                <li>back to top </li>
-            </ul>
-        </div> */}
