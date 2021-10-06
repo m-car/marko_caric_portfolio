@@ -4,7 +4,7 @@
 
 ## Description
 
-This is my portfolio built with REACT
+This is my portfolio built with the React.js framework.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -18,18 +18,27 @@ This is my portfolio built with REACT
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
+## About The Project
+
+This is my portfolio page using the react framework.
+
+- [React.js](https://reactjs.org/)
+
+## Getting Started
+
+Navigate to https://m-car.github.io/portfolio3-react/ .
+No prerequisites or installation necessary.
+
+## Contact
+
+Marko Caric - [LinkedIn](https://www.linkedin.com/in/markocaric/) - pbmc117@gmail.com
+
+Project Link: [https://github.com/m-car/marko_caric_portfolio](https://github.com/m-car/marko_caric_portfolio)
+
 [linkedin-url]: https://linkedin.com/in/markocaric
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
