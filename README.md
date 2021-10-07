@@ -1,6 +1,6 @@
 # React Portfolio
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 ## Description
 
