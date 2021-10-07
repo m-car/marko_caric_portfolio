@@ -7,11 +7,6 @@
 This is my portfolio built with the React.js framework.
 
 
-
-## About The Project
-
-This is my portfolio page using the react framework.
-
 - [React.js](https://reactjs.org/)
 
 ## Getting Started
