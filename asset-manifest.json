@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio3-react/static/css/main.84a73920.chunk.css",
-    "main.js": "/portfolio3-react/static/js/main.08f1fc43.chunk.js",
-    "main.js.map": "/portfolio3-react/static/js/main.08f1fc43.chunk.js.map",
+    "main.css": "/portfolio3-react/static/css/main.a2d2da88.chunk.css",
+    "main.js": "/portfolio3-react/static/js/main.d973d378.chunk.js",
+    "main.js.map": "/portfolio3-react/static/js/main.d973d378.chunk.js.map",
     "runtime-main.js": "/portfolio3-react/static/js/runtime-main.dfa3c044.js",
     "runtime-main.js.map": "/portfolio3-react/static/js/runtime-main.dfa3c044.js.map",
-    "static/js/2.96910bf3.chunk.js": "/portfolio3-react/static/js/2.96910bf3.chunk.js",
-    "static/js/2.96910bf3.chunk.js.map": "/portfolio3-react/static/js/2.96910bf3.chunk.js.map",
+    "static/js/2.c3f023f3.chunk.js": "/portfolio3-react/static/js/2.c3f023f3.chunk.js",
+    "static/js/2.c3f023f3.chunk.js.map": "/portfolio3-react/static/js/2.c3f023f3.chunk.js.map",
     "static/js/3.d2328870.chunk.js": "/portfolio3-react/static/js/3.d2328870.chunk.js",
     "static/js/3.d2328870.chunk.js.map": "/portfolio3-react/static/js/3.d2328870.chunk.js.map",
     "index.html": "/portfolio3-react/index.html",
-    "static/css/main.84a73920.chunk.css.map": "/portfolio3-react/static/css/main.84a73920.chunk.css.map",
-    "static/js/2.96910bf3.chunk.js.LICENSE.txt": "/portfolio3-react/static/js/2.96910bf3.chunk.js.LICENSE.txt",
+    "static/css/main.a2d2da88.chunk.css.map": "/portfolio3-react/static/css/main.a2d2da88.chunk.css.map",
+    "static/js/2.c3f023f3.chunk.js.LICENSE.txt": "/portfolio3-react/static/js/2.c3f023f3.chunk.js.LICENSE.txt",
     "static/media/cryptolaunchTablet.800302d2.PNG": "/portfolio3-react/static/media/cryptolaunchTablet.800302d2.PNG",
     "static/media/kodeKeeperLogoUpdatedWithTitle.fdbd3b92.png": "/portfolio3-react/static/media/kodeKeeperLogoUpdatedWithTitle.fdbd3b92.png",
     "static/media/style.css": "/portfolio3-react/static/media/ledWall.46a38d04.jpeg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.dfa3c044.js",
-    "static/js/2.96910bf3.chunk.js",
-    "static/css/main.84a73920.chunk.css",
-    "static/js/main.08f1fc43.chunk.js"
+    "static/js/2.c3f023f3.chunk.js",
+    "static/css/main.a2d2da88.chunk.css",
+    "static/js/main.d973d378.chunk.js"
   ]
 }
