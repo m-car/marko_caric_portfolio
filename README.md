@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my portfolio built with the React.js framework.
+This portfolio was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 - [React.js](https://reactjs.org/)
 
