@@ -1,17 +1,14 @@
 # React Portfolio
 
-
-
 ## Description
 
 This is my portfolio built with the React.js framework.
-
 
 - [React.js](https://reactjs.org/)
 
 ## Getting Started
 
-Navigate to https://m-car.github.io/portfolio3-react/ .
+Navigate to https://m-car.github.io/marko_caric_portfolio/ .
 No prerequisites or installation necessary.
 
 ## Contact
