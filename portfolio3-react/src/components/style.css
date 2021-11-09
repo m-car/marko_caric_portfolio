@@ -1,4 +1,3 @@
-
 .form {
   margin: 20px;
 }
@@ -10,27 +9,25 @@
   width: 100%;
 }
 
-
 /* navbar styling */
-.bg-img{
+.bg-img {
   background-image: url("../Assets/images/ledWall.jpeg");
 
   min-height: 380px;
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- 
-   /* Needed to position the navbar */
-   position: relative;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
 }
 .container {
-  
-  position: absolute;
-  margin: 20px;
+  /* position: absolute; */
+  /* margin: 20px; */
   width: auto;
 }
-.topnav{
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
@@ -46,7 +43,7 @@
   background-color: #ddd;
   color: black;
 }
-a{
+a {
   color: #c6dd60;
   text-align: center;
   padding: 14px 16px;
@@ -64,7 +61,7 @@ a{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom:100px;
+  margin-bottom: 100px;
 }
 
 .social_links {
@@ -121,4 +118,35 @@ a{
 .gt:hover,
 .gt:hover .circle {
   color: #1f1f1f;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #666666; */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li p {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
 }

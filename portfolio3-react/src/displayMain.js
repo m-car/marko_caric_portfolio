@@ -3,14 +3,14 @@ import './App.css';
 import HelloDiv from './components/helloDiv';
 import NavbarDiv from './components/navbarDiv';
 import MyworkDiv from './components/myworkDiv';
-import ContactmeForm from './components/contactmeDiv';
+
 import FooterDiv from './components/FooterDiv';
 
 
-export default function DisplayMain(){
-   const [currentPage, setCurrentPage] = useState("hello");
+export default function DisplayMain() {
+  const [currentPage, setCurrentPage] = useState("hello");
 
-   const renderPage = () => {
+  const renderPage = () => {
     switch (currentPage) {
       case "Hello":
         return <HelloDiv />;
@@ -18,21 +18,20 @@ export default function DisplayMain(){
       case "Portfolio":
         return <MyworkDiv />;
 
-      case "Contact":
-        return <ContactmeForm/>;
+
 
       default:
         return <HelloDiv />;
     }
   };
   const handlePageChange = (page) => setCurrentPage(page);
-    return(
-        <div>
-        {/* We are passing the currentPage from state and the function to update it */}
-        <NavbarDiv currentPage={currentPage} handlePageChange={handlePageChange} />
-        {/* Here we are calling the renderPage method which will return a component  */}
-        {renderPage()}
-        <FooterDiv />
-      </div>
-    )
+  return (
+    <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <NavbarDiv currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+      <FooterDiv />
+    </div>
+  )
 }
